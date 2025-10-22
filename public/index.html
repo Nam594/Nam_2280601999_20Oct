@@ -5,123 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Upload Demo - Home</title>
     <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
+      /* Simplified, clean styles */
       body {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        background: #f5f7fb;
+        color: #222;
+        margin: 0;
         padding: 20px;
       }
 
       .container {
-        background: white;
-        border-radius: 20px;
-        padding: 50px;
-        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-        text-align: center;
-        max-width: 600px;
+        max-width: 720px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 24px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
       }
 
       h1 {
-        color: #667eea;
-        margin-bottom: 20px;
-        font-size: 2.5em;
+        font-size: 1.4rem;
+        margin: 0 0 8px 0;
+        color: #111;
       }
 
-      p {
-        color: #666;
-        font-size: 1.2em;
-        margin-bottom: 30px;
-        line-height: 1.6;
-      }
+      p { color: #555; margin-bottom: 16px; }
 
-      .features {
-        text-align: left;
-        margin: 30px 0;
-        padding: 20px;
-        background: #f8f9fa;
-        border-radius: 10px;
-      }
-
-      .features h3 {
-        color: #667eea;
-        margin-bottom: 15px;
-      }
-
-      .features ul {
-        list-style: none;
-        padding: 0;
-      }
-
-      .features li {
-        padding: 10px 0;
-        border-bottom: 1px solid #e0e0e0;
-        color: #333;
-      }
-
-      .features li:last-child {
-        border-bottom: none;
-      }
-
-      .features li::before {
-        content: "✓ ";
-        color: #38ef7d;
-        font-weight: bold;
-        margin-right: 10px;
-      }
+      .actions { display: flex; gap: 8px; margin-bottom: 12px; }
 
       .btn {
         display: inline-block;
-        padding: 15px 40px;
-        background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
-        color: white;
+        padding: 10px 14px;
+        background: #1976d2;
+        color: #fff;
         text-decoration: none;
-        border-radius: 50px;
-        font-size: 1.2em;
+        border-radius: 6px;
         font-weight: 600;
-        transition: all 0.3s ease;
-        margin: 10px;
       }
 
-      .btn:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 10px 25px rgba(17, 153, 142, 0.4);
-      }
+      .btn.secondary { background: #6c757d; }
 
-      .btn.secondary {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      }
-
-      .btn.secondary:hover {
-        box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
-      }
-
-      .emoji {
-        font-size: 3em;
-        margin-bottom: 20px;
-      }
-
-      .info-box {
-        background: #fff3cd;
-        border: 2px solid #ffc107;
-        border-radius: 10px;
-        padding: 15px;
-        margin: 20px 0;
-      }
-
-      .info-box p {
-        margin: 0;
-        color: #856404;
-        font-size: 1em;
-      }
+      .footer { margin-top: 18px; color: #888; font-size: 0.9rem; }
     </style>
   </head>
   <body>
@@ -153,12 +77,9 @@
       </div>
 
       <a href="/upload.html" class="btn">🚀 Bắt đầu Upload</a>
-      <a href="https://github.com" class="btn secondary" target="_blank"
-        >📖 Xem Hướng dẫn</a
-      >
 
       <div style="margin-top: 40px; color: #999; font-size: 0.9em">
-        <p>Developed by Phan Quoc Khanh - 2280601472</p>
+        <p>Developed by Luu Hoang Phuong Nam - 2280601999</p>
         <p>© 2025 - NNPTDM Project</p>
       </div>
     </div>
